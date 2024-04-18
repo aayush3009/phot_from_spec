@@ -2,6 +2,8 @@
 
 This Python script is designed to perform spectral convolution for photometric analysis using filters from the Hubble Space Telescope (HST) and the James Webb Space Telescope (JWST) NIRCam. It takes 1D spectra as input, convolves them with filter transmission curves, and calculates photometry.
 
+HST/ACS and JWST/NIRCam filter transmission curves are included, which have been downloaded from the [SVO Filter Profile service] (http://svo2.cab.inta-csic.es/svo/theory/fps/).
+
 ## Requirements
 
 - `numpy`
