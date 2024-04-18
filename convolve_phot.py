@@ -18,9 +18,9 @@ plt.rcParams['ytick.labelsize'] = 10
 
 plt.rcParams['axes.labelsize'] = 12
 
-filters_hst = ["/Users/aayushsaxena/Desktop/Oxford/HST-filters/HST_ACS_WFC.F606W.dat",
-            "/Users/aayushsaxena/Desktop/Oxford/HST-filters/HST_ACS_WFC.F775W.dat",
-            "/Users/aayushsaxena/Desktop/Oxford/HST-filters/HST_ACS_WFC.F850LP.dat"]
+filters_hst = ["filters/HST_ACS/HST_ACS_WFC.F606W.dat",
+            "filters/HST_ACS/HST_ACS_WFC.F775W.dat",
+            "filters/HST_ACS/HST_ACS_WFC.F850LP.dat"]
 
 filters_hst_names = np.array(["F606W", "F775W", "F850LP"])
 
@@ -28,24 +28,24 @@ filters_hst_eff = np.array([5809.26, 7652.44, 9004.99])
 
 
 ### JWST NIRCam wideband filters
-filters_jwst = ["/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F070W.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F090W.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F115W.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F140M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F150W.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F182M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F200W.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F210M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F277W.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F300M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F335M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F356W.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F360M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F410M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F410M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F444W.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F460M.dat",
-           "/Users/aayushsaxena/Desktop/Oxford/JADES/NIRCam-filters/JWST_NIRCam.F480M.dat"
+filters_jwst = ["filters/NIRCam/JWST_NIRCam.F070W.dat",
+           "filters/NIRCam/JWST_NIRCam.F090W.dat",
+           "filters/NIRCam/JWST_NIRCam.F115W.dat",
+           "filters/NIRCam/JWST_NIRCam.F140M.dat",
+           "filters/NIRCam/JWST_NIRCam.F150W.dat",
+           "filters/NIRCam/JWST_NIRCam.F182M.dat",
+           "filters/NIRCam/JWST_NIRCam.F200W.dat",
+           "filters/NIRCam/JWST_NIRCam.F210M.dat",
+           "filters/NIRCam/JWST_NIRCam.F277W.dat",
+           "filters/NIRCam/JWST_NIRCam.F300M.dat",
+           "filters/NIRCam/JWST_NIRCam.F335M.dat",
+           "filters/NIRCam/JWST_NIRCam.F356W.dat",
+           "filters/NIRCam/JWST_NIRCam.F360M.dat",
+           "filters/NIRCam/JWST_NIRCam.F410M.dat",
+           "filters/NIRCam/JWST_NIRCam.F410M.dat",
+           "filters/NIRCam/JWST_NIRCam.F444W.dat",
+           "filters/NIRCam/JWST_NIRCam.F460M.dat",
+           "filters/NIRCam/JWST_NIRCam.F480M.dat"
           ]
 
 filters_jwst_names = np.array(["F070W", "F090W", "F115W", "F140M", "F150W", "F182M", "F200W", "F210M", "F277W", 
